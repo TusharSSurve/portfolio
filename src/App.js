@@ -6,14 +6,14 @@ import Homepage from "./pages/Homepage";
 import Root from "./pages/Root";
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
-      { path: '/portfolio', element: <Homepage /> },
-      { path: '/', element: <Homepage /> },
+      { path: "/portfolio", element: <Homepage /> },
+      { path: "/", element: <Homepage /> },
     ],
-  }
+  },
 ]);
 
 function App() {
