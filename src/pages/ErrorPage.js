@@ -1,6 +1,6 @@
 import React from "react";
 
-function ErrorPage() {
+const ErrorPage = () => {
   return (
     <>
       <h1>404 Error Page</h1>

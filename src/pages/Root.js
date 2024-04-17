@@ -1,14 +1,18 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Footer from '../global/Footer';
+import Header from '../global/Header';
 
-function Root() {
-    return (
-      <>
-        <main>
-          <Outlet />
-        </main>
-      </>
-    );
-  }
-  
-  export default Root;
+const Root = () => {
+  return (
+    <>
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </>
+  );
+}
+
+export default Root;
