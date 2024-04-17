@@ -1,0 +1,17 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.15s ease-out;
+  transform: translate(-50%, -50%);
+}
+
+.custom-cursor svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: var(--neon-orange-color);
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

@@ -1,9 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
     <footer>
-      <h1>Footer</h1>
+      <p className={styles.copyright}><FontAwesomeIcon icon={faCopyright} /> Tushar Surve 2024</p>
     </footer>
   );
 }
