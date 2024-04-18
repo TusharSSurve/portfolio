@@ -10,7 +10,7 @@
   width: 20px;
   height: 20px;
   fill: none;
-  stroke: var(--neon-orange-color);
+  stroke: var(--neon-color);
   stroke-width: 1;
   stroke-linecap: round;
   stroke-linejoin: round;
