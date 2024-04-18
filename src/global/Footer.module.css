@@ -23,10 +23,6 @@ footer {
   margin: 0;
 }
 
-.contact ul li {
-  list-style-type: none;
-}
-
 .contact ul li a {
   text-decoration: none;
   color: var(--dark-white-color);

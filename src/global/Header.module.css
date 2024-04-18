@@ -1,4 +1,71 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 15px 0;
+  transition: margin 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.header-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header.sticky {
+  margin: 0;
+  background-color: var(--dark-grey-color);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-family: var(--font-lato);
+  font-size: var(--font-16);
+}
+
+.navbar-container a {
+  font-size: var(--font-14);
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-container li a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 2.5px;
+  background-color: var(--neon-color);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-container li a:hover {
+  color: var(--dark-white-color);
+}
+
+.navbar-container li a:hover::before {
+  transform: scaleX(1);
+}
+
 .button {
   color: var(--neon-color);
   text-decoration: none;
 }
+
+@media (max-width: 769px) {}
