@@ -1,12 +1,13 @@
 .button {
   border: 1px solid var(--neon-color);
   border-radius: var(--border-radius);
-  padding: 12px 16px;
-  font-family: var(--font-roboto-slab);
+  padding: 10px 13px;
+  font-family: var(--font-lato);
   line-height: 1;
   text-decoration: none;
   font-size: var(--font-14);
   width: max-content;
+  height: max-content;
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
