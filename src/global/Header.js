@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import styles from './Header.module.css'
 import resume from '../assets/resume.pdf';
 import Button from "./Button";
+import logo from '../assets/icons/logo1.svg'
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(window.pageYOffset > 0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +26,7 @@ const Header = () => {
     <header className={`${styles['header']} ${isMenuOpen ? styles['menu-open'] : ''} ${isScrolled ? styles['sticky'] : ''}`}>
       <div className={styles['header-container']}>
         <div className={styles['logo-container']}>
-          <a href="/">TUSHAR SURVE</a>
+          <a href="/"><img src={logo} alt="Tushar Surve" width="16px" />TUSHAR SURVE</a>
         </div>
         <div className={`${styles['hamburger-menu']} ${isMenuOpen ? styles['opened'] : ''}`} onClick={toggleMenu}>
           <span></span>
