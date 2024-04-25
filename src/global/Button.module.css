@@ -19,3 +19,13 @@
 .button:hover a {
   color: var(--black-color);
 }
+
+.big {
+  padding: 20px 28px;
+}
+
+@media (max-width: 550px) {
+  .big {
+    padding: 15px 19px;
+  }
+}
