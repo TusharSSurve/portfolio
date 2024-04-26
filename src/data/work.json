@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "year": "2024",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/portfolio",
+        "icon": "github"
+      }
+    ],
+    "title": "Portfolio",
+    "para": "The source of this website.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "React"
+      },
+      {
+        "id": 2,
+        "lang": "JavaScript"
+      },
+      {
+        "id": 3,
+        "lang": "CSS"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "year": "2020",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/OpenCV",
+        "icon": "github"
+      }
+    ],
+    "title": "OpenCV",
+    "para": "Exploring creative computer vision project ideas.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "OpenCV"
+      },
+      {
+        "id": 3,
+        "lang": "ML/DL"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "year": "2024",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://www.kaggle.com/code/tusharsurve/titanic-eda",
+        "icon": "kaggle"
+      }
+    ],
+    "title": "Titanic EDA",
+    "para": "Exploring insights from the Titanic dataset.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "Pandas"
+      },
+      {
+        "id": 3,
+        "lang": "Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "year": "2023",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/GPT-Detector",
+        "icon": "github"
+      }
+    ],
+    "title": "GPT Detector",
+    "para": "Detect AI-Generated Plagiarism",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "React"
+      },
+      {
+        "id": 2,
+        "lang": "OpenAI"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "year": "2024",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://www.kaggle.com/code/tusharsurve/aerofit-eda",
+        "icon": "kaggle"
+      }
+    ],
+    "title": "Aerofit EDA",
+    "para": "Analyzing Aerofit dataset for trends.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "Pandas"
+      },
+      {
+        "id": 3,
+        "lang": "Data Analysis"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "year": "2021",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/Media-Player-Controller-With-Hand-Gesture",
+        "icon": "github"
+      }
+    ],
+    "title": "Media Player Controller",
+    "para": "Hand gesture-based media player navigation system.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "OpenCV"
+      },
+      {
+        "id": 3,
+        "lang": "MediaPipe"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "year": "2021",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/Gender-Classification-With-Flutter",
+        "icon": "github"
+      }
+    ],
+    "title": "Gender Classification",
+    "para": "A Flutter app for gender classification.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "Flutter"
+      },
+      {
+        "id": 3,
+        "lang": "Dart"
+      },
+      {
+        "id": 4,
+        "lang": "ML/DL"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "year": "2020",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/Computer-Vision-With-DL/tree/main/Face%20Mask%20Detection",
+        "icon": "github"
+      }
+    ],
+    "title": "Face Mask Detection",
+    "para": "Real-time Face Mask Detection System.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "ML/DL"
+      },
+      {
+        "id": 3,
+        "lang": "OpenCV"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "year": "2020",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/Image-Quality-Detection",
+        "icon": "github"
+      }
+    ],
+    "title": "Image Quality Testing",
+    "para": "Examining Image Quality for accuracy and sharpness.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "ML/DL"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "year": "2020",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/OpenCV/tree/main/Document%20Scanner",
+        "icon": "github"
+      }
+    ],
+    "title": "Document Scanner",
+    "para": "Quick Document Scanner with high-quality output.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "OpenCV"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "year": "2020",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/OpenCV/tree/main/Remove%20Duplicates",
+        "icon": "github"
+      }
+    ],
+    "title": "Duplicate Image Removal",
+    "para": "A Python program to remove duplicates from the dataset.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Python"
+      },
+      {
+        "id": 2,
+        "lang": "OpenCV"
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap&family=IBM+Plex+Mono&display=swap&family=Inconsolata:wdth,wght@112.5,200..900&display=swap');
 
 :root {
   /*colors*/
@@ -45,6 +45,8 @@
   /*font*/
   --font-roboto-slab: "Roboto Slab", serif;
   --font-lato: "Lato", sans-serif;
+  --font-ibm: "IBM Plex Mono", monospace;
+  --font-inconsolata: "Inconsolata", monospace;
 
   /*border-radius*/
   --border-radius: 4px;
@@ -70,6 +72,10 @@ p {
   font-family: var(--font-roboto-slab);
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style-type: none;
 }
@@ -77,4 +83,17 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+h2 {
+  font-size: var(--font-48);
+  margin: 0 0 30px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+@media (max-width:550px) {
+  h2 {
+    font-size: var(--font-36);
+  }
 }

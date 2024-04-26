@@ -5,13 +5,6 @@
   padding: 50px 0 70px;
 }
 
-.contact h2 {
-  font-size: var(--font-48);
-  margin: 0 0 30px;
-  color: var(--white-color);
-  text-align: center;
-}
-
 .contact p {
   margin: 0;
   margin-bottom: 50px;
@@ -28,9 +21,5 @@
   .contact {
     width: 90%;
     margin: 0 auto;
-  }
-
-  .contact h2 {
-    font-size: var(--font-36);
   }
 }

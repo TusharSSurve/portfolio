@@ -1,0 +1,14 @@
+.work {
+  padding: 50px 0 70px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.wcards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  width: 82%;
+  margin: 0 auto;
+}
