@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from './WorkCard.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faKaggle } from '@fortawesome/free-brands-svg-icons';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const WorkCard = ({ project }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className={styles.wcard}>
+    <div className={styles.wcard} data-aos="fade-up">
       <div className={styles.wbody}>
         <div className={styles.wheader}>
           <time>{project.year}</time>
