@@ -59,10 +59,6 @@ header a {
   transition: transform 0.3s ease-in-out;
 }
 
-.navbar-container li a:hover {
-  color: var(--dark-white-color);
-}
-
 .navbar-container li a:hover::before {
   transform: scaleX(1);
 }

@@ -16,7 +16,7 @@ const Work = () => {
   };
 
   return (
-    <div className={styles.work}>
+    <section className={styles.work} id="work">
       <h2>Some Things I’ve Built</h2>
       <div className={styles.wcards}>
         {projects.slice(0, visibleCards).map(proj => {
@@ -24,7 +24,7 @@ const Work = () => {
         })}
       </div>
       <Button className="big" onClick={toggleCards}>{showAll ? 'Show Less' : 'Show More'}</Button>
-    </div>
+    </section>
   );
 }
 export default Work;
