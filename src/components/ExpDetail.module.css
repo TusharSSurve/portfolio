@@ -1,0 +1,38 @@
+.exp_detail h3 {
+  margin: 0 0 5px;
+  font-size: var(--font-22);
+  color: var(--white-color);
+}
+
+.exp_detail h3 span,
+.exp_detail h3 a {
+  color: var(--neon-color);
+  transition: text-decoration 0.5s ease-in;
+}
+
+.exp_detail h3 a:hover {
+  text-decoration: underline;
+}
+
+.exp_detail p {
+  font-size: var(--font-14);
+  margin: 0;
+  font-family: var(--font-ibm);
+  color: var(--dark-white-color);
+}
+
+.exp_detail li {
+  font-size: var(--font-18);
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: var(--dark-white-color);
+  font-family: var(--font-lato);
+}
+
+.exp_detail li::before {
+  content: "▹";
+  color: var(--neon-color);
+  position: absolute;
+  left: 0px;
+}
