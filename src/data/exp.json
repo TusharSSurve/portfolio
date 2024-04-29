@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "job": "TCS",
+    "job_title": "Software Developer <span>@</span> <a href='https://www.tcs.com'>TCS</a>",
+    "range": "August 2021 – Present",
+    "job_points": [
+      {
+        "id": 1,
+        "point": "Deliver high-quality, robust production code for a diverse array of projects for Pfizer Inc. (xfn)"
+      },
+      {
+        "id": 2,
+        "point": "Initiated development of a new site using Vue.js framework, which has resulted in an estimated <strong>40% increase</strong> in performance."
+      },
+      {
+        "id": 3,
+        "point": "Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship"
+      },
+      {
+        "id": 4,
+        "point": "Developed a PI with form recognition (computer vision) to automate on/off boarding processes, resulting in a <strong>60% reduction in manual work.</strong>"
+      },
+      {
+        "id": 5,
+        "point": "Designed and maintained Canada LATAM APAC and new drug launch sites."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "job": "FroshLink",
+    "job_title": "Flutter Developer - Intern <span>@</span> <a href='https://www.linkedin.com/company/froshlink/about/'>FroshLink</a>",
+    "range": "June – August 2021",
+    "job_points": [
+      {
+        "id": 1,
+        "point": "Collaborated with a multidisciplinary team of interns, designers, project managers, and engineers on various projects, including creating new brands, design systems, and applications for the organization."
+      },
+      {
+        "id": 2,
+        "point": "Built and tested a mobile application for educational communication and online learning for more than <strong>4000+ student users.</strong>"
+      },
+      {
+        "id": 3,
+        "point": "Engineered and improved major features of FroshLink's customer-facing Android & iOS cross-platform app using Flutter, and Dart."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "job": "Weoto TechLabs",
+    "job_title": "Python Developer - Intern <span>@</span> <a href='https://www.linkedin.com/company/weototechlabs/about/'>Weoto TechLabs</a>",
+    "range": "January – March 2020",
+    "job_points": [
+      {
+        "id": 1,
+        "point": "Led a team of four in designing and developing an organization-wide attendance system based on facial recognition technology."
+      },
+      {
+        "id": 2,
+        "point": "Designed and implemented a MongoDB-based interface to efficiently collect, process, and store facial data, ensuring data integrity and security."
+      },
+      {
+        "id": 3,
+        "point": "Built and maintained software documentation sites, contributing to post-deployment support and maintenance to ensure effective communication and continued functionality of the software."
+      }
+    ]
+  }
+]
