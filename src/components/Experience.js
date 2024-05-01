@@ -1,18 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from './Experience.module.css';
 import ExpDetail from "./ExpDetail";
 import data from '../data/exp.json';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Experience = () => {
 
   const exp = data;
   const [currTab, setCurrTab] = useState(1);
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const toggleTab = (val) => {
     setCurrTab(val);
   }
   return (
-    <section className={styles.exp}>
+    <section className={styles.exp} data-aos="zoom-in-up">
       <h2>Where I've Worked</h2>
       <div className={styles.tab}>
         <div className={styles.joblist}>
