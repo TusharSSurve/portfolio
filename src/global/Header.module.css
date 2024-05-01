@@ -125,7 +125,6 @@ header a {
     display: none;
     background-color: var(--dark-grey-color);
     animation: fadeSlideOutTop 0.5s ease;
-
   }
 
   .navbar-container.show-menu {

@@ -53,6 +53,16 @@
   --border-radius: 4px;
 }
 
+::-moz-selection {
+  color: var(--black-color);
+  background: var(--neon-color);
+}
+
+::selection {
+  color: var(--black-color);
+  background: var(--neon-color);
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
