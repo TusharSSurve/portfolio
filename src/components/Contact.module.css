@@ -17,6 +17,10 @@
   color: var(--neon-color);
 }
 
+.contact a:hover {
+  color: var(--black-color);
+}
+
 @media (max-width:550px) {
   .contact {
     width: 90%;

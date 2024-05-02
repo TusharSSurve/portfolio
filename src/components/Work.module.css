@@ -18,6 +18,10 @@
   color: var(--neon-color);
 }
 
+.work>div:last-of-type:hover {
+  color: var(--black-color);
+}
+
 @media (max-width: 768px) {
   .work {
     padding: 60px 0;

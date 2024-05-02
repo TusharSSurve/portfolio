@@ -13,6 +13,7 @@
   --dark-grey-color: #181818;
 
   /* fonts */
+  --font-78: 78px;
   --font-64: 64px;
   --font-56: 56px;
   --font-48: 48px;
@@ -61,6 +62,10 @@
 ::selection {
   color: var(--black-color);
   background: var(--neon-color);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
