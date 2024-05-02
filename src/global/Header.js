@@ -41,9 +41,9 @@ const Header = () => {
               <li><a href="#work">WORK</a></li>
               <li><a href="#contact">CONTACT</a></li>
             </ul>
-            <Button>
-              <a href={resume} className={styles.button} target="_blank" rel="noopener noreferrer">RESUME</a>
-            </Button>
+            <a href={resume} className={styles.button} target="_blank" rel="noopener noreferrer"><Button>
+              RESUME
+            </Button></a>
           </nav>
         </div>
       </div>

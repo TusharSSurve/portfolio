@@ -11,7 +11,7 @@ const About = () => {
   }, []);
 
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id="about">
       <h2>About Me</h2>
       <div className={styles['about-container']}>
         <div className={styles['about-text']} data-aos="fade-right" data-aos-duration="2000">

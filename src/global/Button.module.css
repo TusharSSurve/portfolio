@@ -14,6 +14,7 @@
 
 .button:hover {
   background-color: var(--neon-color);
+  color: var(--black-color);
 }
 
 .button:hover a {

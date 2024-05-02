@@ -1,0 +1,35 @@
+.error {
+  width: 100%;
+  height: calc(100vh - 132px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error h1 {
+  font-size: var(--font-78);
+  margin: 0;
+  font-family: var(--font-roboto-slab);
+  color: var(--neon-color);
+  line-height: 1.2;
+}
+
+.error p {
+  margin: 0;
+  text-align: center;
+  font-size: var(--font-36);
+  color: var(--dark-white-color);
+}
+
+.error div {
+  margin-top: 40px;
+}
+
+.error a {
+  color: var(--neon-color);
+}
+
+.error a:hover {
+  color: var(--black-color);
+}

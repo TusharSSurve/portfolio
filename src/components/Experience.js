@@ -18,7 +18,7 @@ const Experience = () => {
     setCurrTab(val);
   }
   return (
-    <section className={styles.exp} data-aos="zoom-in-up">
+    <section className={styles.exp} data-aos="zoom-in-up" id="experience">
       <h2>Where I've Worked</h2>
       <div className={styles.tab}>
         <div className={styles.joblist}>
