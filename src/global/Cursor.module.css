@@ -16,7 +16,7 @@
   stroke-linejoin: round;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   .custom-cursor {
     display: none;
   }
