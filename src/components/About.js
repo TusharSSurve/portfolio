@@ -30,7 +30,7 @@ const About = () => {
             <li>Tableau</li>
           </ul>
         </div>
-        <div className={styles['about-img']} data-aos="fade-left" data-aos-duration="2000">
+        <div className={styles['about-img']} data-aos="flip-up" data-aos-duration="1000">
           <img src={imgd} alt="Profile" />
           <img src={imgm} alt="Profile" />
         </div>

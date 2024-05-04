@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap&family=IBM+Plex+Mono&display=swap&family=Inconsolata:wdth,wght@112.5,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap&family=IBM+Plex+Mono&display=swap&family=Inconsolata:wdth,wght@112.5,200..900&display=swap&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   /*colors*/
@@ -18,6 +18,7 @@
   --font-60: 60px;
   --font-56: 56px;
   --font-48: 48px;
+  --font-40: 40px;
   --font-36: 36px;
   --font-32: 32px;
   --font-28: 28px;
@@ -50,6 +51,7 @@
   --font-lato: "Lato", sans-serif;
   --font-ibm: "IBM Plex Mono", monospace;
   --font-inconsolata: "Inconsolata", monospace;
+  --font-poppins: "Poppins", sans-serif;
 
   /*border-radius*/
   --border-radius: 4px;
@@ -113,6 +115,11 @@ button {
   cursor: pointer;
   border: 0;
   border-radius: 0;
+}
+
+.typed-cursor {
+  font-weight: var(--font-weight-400);
+  color: var(--dark-neon-color);
 }
 
 @media (max-width:550px) {
