@@ -1,0 +1,15 @@
+.text {
+  font-size: var(--font-28);
+  line-height: 1.5;
+  font-weight: var(--font-weight-700);
+  font-family: var(--font-poppins);
+}
+
+.text span:first-of-type {
+  color: var(--white-color);
+}
+
+.type {
+  color: var(--neon-color);
+  text-decoration: underline;
+}
