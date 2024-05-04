@@ -36,10 +36,10 @@ const Header = () => {
         <div className={`${styles['navbar-container']} ${isMenuOpen ? styles['show-menu'] : ''}`}>
           <nav>
             <ul>
-              <li><a href="/#about">ABOUT</a></li>
-              <li><a href="/#experience">EXPERIENCE</a></li>
-              <li><a href="/#work">WORK</a></li>
-              <li><a href="/#contact">CONTACT</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#experience">EXPERIENCE</a></li>
+              <li><a href="#work">WORK</a></li>
+              <li><a href="#contact">CONTACT</a></li>
             </ul>
             <a href={resume} className={styles.button} target="_blank" rel="noopener noreferrer"><Button>
               RESUME
