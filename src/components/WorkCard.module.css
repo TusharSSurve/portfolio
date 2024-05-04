@@ -63,6 +63,14 @@ ul.wlangs {
   border-radius: 3px;
 }
 
+.tableau path {
+  fill: var(--dark-white-color);
+}
+
+.tableau:hover path {
+  fill: var(--neon-color);
+}
+
 @media (min-width: 1440px) {
   .wcard {
     max-width: 280px;
