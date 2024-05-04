@@ -81,6 +81,29 @@
     ]
   },
   {
+    "id": 12,
+    "year": "2023",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://public.tableau.com/views/HRAnalyticsDashboard_17051690515550/HRAnalyticsDashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
+        "icon": "tableau"
+      }
+    ],
+    "title": "HR Dashboard",
+    "para": "Tableau Based Interactive HR analytics dashboard.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "Tableau"
+      },
+      {
+        "id": 2,
+        "lang": "Excel"
+      }
+    ]
+  },
+  {
     "id": 4,
     "year": "2023",
     "wlinks": [

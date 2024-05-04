@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from './WorkCard.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faKaggle } from '@fortawesome/free-brands-svg-icons';
+import { ReactComponent as Tableau } from '../assets/icons/tableau.svg'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
@@ -19,9 +20,11 @@ const WorkCard = ({ project }) => {
             {
               project.wlinks.map(wl => {
                 return <li key={wl.id}>
-                  <a href={wl.link}>{
-                    wl.icon === 'github' ? <FontAwesomeIcon icon={faGithub} /> : <FontAwesomeIcon icon={faKaggle} />
-                  }</a>
+                  <a href={wl.link} target="_blank" rel="noopener noreferrer">
+                    {wl.icon === 'github' && <FontAwesomeIcon icon={faGithub} />}
+                    {wl.icon === 'kaggle' && <FontAwesomeIcon icon={faKaggle} />}
+                    {wl.icon === 'tableau' && <Tableau className={styles.tableau} />}
+                  </a>
                 </li>
               })
             }
