@@ -24,8 +24,8 @@ const App = () => {
   return <BrowserRouter basename="/portfolio">
     <Routes>
       <Route path="/" element={<Root />}>
-        <Route index element={<Homepage />} />
-        <Route path="read-books" element={<BookReads />} />
+        <Route index path="/" element={<Homepage />} />
+        <Route path="/read-books" element={<BookReads />} />
         <Route path="*" element={<ErrorPage />} />
       </Route>
     </Routes>
