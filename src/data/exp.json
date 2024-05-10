@@ -11,7 +11,7 @@
       },
       {
         "id": 2,
-        "point": "Initiated development of a new site using Vue.js framework, which has resulted in an estimated <strong>40% increase</strong> in performance."
+        "point": "Initiated development of a new site using Vue.js framework, which has resulted in an estimated <strong>35% increase</strong> in performance."
       },
       {
         "id": 3,
@@ -19,7 +19,7 @@
       },
       {
         "id": 4,
-        "point": "Developed a PI with form recognition (computer vision) to automate on/off boarding processes, resulting in a <strong>60% reduction in manual work.</strong>"
+        "point": "Created <strong>2 computer vision PIs,</strong> automating Pfizer’s onboarding process, <strong>reducing manual work by 60%,</strong> and another for image lossless compression, cutting site load time by <strong>around 8-10%.</strong>"
       },
       {
         "id": 5,

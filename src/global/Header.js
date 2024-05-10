@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from './Header.module.css'
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Resume.pdf';
 import Button from "./Button";
 import logo from '../assets/icons/logo1.svg'
 
