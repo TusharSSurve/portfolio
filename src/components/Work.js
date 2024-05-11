@@ -17,7 +17,7 @@ const Work = () => {
 
   return (
     <section className={styles.work} id="work">
-      <h2>Some Things I’ve Built</h2>
+      <h2>Some things I’ve built</h2>
       <div className={styles.wcards}>
         {projects.slice(0, visibleCards).map(proj => {
           return <WorkCard project={proj} key={proj.id} />

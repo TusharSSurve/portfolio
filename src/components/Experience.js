@@ -19,7 +19,7 @@ const Experience = () => {
   }
   return (
     <section className={styles.exp} data-aos="zoom-in-up" id="experience">
-      <h2>Where I've Worked</h2>
+      <h2>Where I've worked</h2>
       <div className={styles.tab}>
         <div className={styles.joblist}>
           {exp.map(e => {

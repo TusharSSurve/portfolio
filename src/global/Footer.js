@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faKaggle, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faKaggle, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import styles from './Footer.module.css';
 
 const Footer = () => {
@@ -14,7 +14,6 @@ const Footer = () => {
             <li><a href="https://github.com/TusharSSurve"><FontAwesomeIcon icon={faGithub} /></a></li>
             <li><a href="https://www.linkedin.com/in/surve-tushar/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
             <li><a href="https://www.kaggle.com/tusharsurve"><FontAwesomeIcon icon={faKaggle} /></a></li>
-            <li><a href="https://instagram.com/surve_tushar"><FontAwesomeIcon icon={faInstagram} /></a></li>
           </ul>
         </div>
       </div>

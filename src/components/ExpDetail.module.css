@@ -36,3 +36,7 @@
   position: absolute;
   left: 0px;
 }
+
+.exp_detail strong {
+  color: var(--white-color);
+}
