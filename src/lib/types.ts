@@ -41,3 +41,15 @@ export type ExperienceCardProps = {
   experience: ExperienceProps;
   className?: string
 }
+
+type BlogCardDetail = {
+  id: string;
+  year: string;
+  title: string;
+  para: string;
+}
+
+export type BlogCardProps = {
+  blog: BlogCardDetail
+  className?: string
+}
