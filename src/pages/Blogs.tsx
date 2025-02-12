@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { MDXProvider } from '@mdx-js/react'
 import { components } from '../mdx-components'
 import { useParams } from 'react-router-dom'
+import './Blogs.css'
 
 export default function BlogPost() {
 
@@ -32,7 +33,7 @@ export default function BlogPost() {
 
   return (
     <MDXProvider components={components}>
-      <article className="max-w-3xl mx-auto px-4 py-8">
+      <article className="max-w-3xl mx-auto px-4 py-8 blog">
         <Content />
       </article>
     </MDXProvider>

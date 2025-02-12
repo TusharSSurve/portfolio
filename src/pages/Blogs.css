@@ -1,0 +1,134 @@
+.blog {
+  @apply max-w-4xl mx-auto;
+}
+
+.blog h1 {
+  @apply text-4xl font-bold dark:text-whitecolor mb-6;
+}
+
+.blog h2 {
+  @apply text-3xl font-semibold dark:text-whitecolor mt-8 mb-4;
+}
+
+.blog h3 {
+  @apply text-2xl font-semibold dark:text-whitecolor mt-6 mb-3;
+}
+
+.blog h4 {
+  @apply text-xl font-semibold dark:text-whitecolor mt-4 mb-2;
+}
+
+.blog p {
+  @apply text-base dark:text-whitecolor mt-3 leading-relaxed;
+}
+
+.blog ol {
+  @apply mt-4 mb-4 ml-6 list-decimal;
+}
+
+.blog ul {
+  @apply mt-4 mb-4 ml-6 list-disc space-y-2;
+}
+
+.blog li {
+  @apply text-base dark:text-whitecolor relative pl-2;
+}
+
+.blog li::before {
+  @apply absolute left-[-1rem] top-[0.5rem] w-1.5 h-1.5 bg-gray-400 dark:bg-gray-500 rounded-full;
+  content: "";
+}
+
+.blog a {
+  @apply text-blue-600 dark:text-blue-400 hover:underline;
+}
+
+.blog blockquote {
+  @apply pl-4 border-l-4 border-gray-300 dark:border-gray-600 italic my-6;
+}
+
+.blog pre {
+  @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg my-4 overflow-x-auto;
+}
+
+.blog code {
+  @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono;
+}
+
+.blog img {
+  @apply max-w-full h-auto rounded-lg my-6;
+}
+
+.blog table {
+  @apply w-full border-collapse my-6;
+}
+
+.blog th {
+  @apply border dark:border-gray-700 bg-gray-100 dark:bg-gray-800 px-4 py-2 text-left;
+}
+
+.blog td {
+  @apply border dark:border-gray-700 px-4 py-2;
+}
+
+.blog hr {
+  @apply my-8 border-t dark:border-gray-700;
+}
+
+.blog .note {
+  @apply bg-blue-50 dark:bg-blue-900/30 border-l-4 border-blue-500 p-4 my-4;
+}
+
+.blog .warning {
+  @apply bg-yellow-50 dark:bg-yellow-900/30 border-l-4 border-yellow-500 p-4 my-4;
+}
+
+.blog ul ul, 
+.blog ol ol, 
+.blog ul ol, 
+.blog ol ul {
+  @apply mt-2 mb-2 ml-6;
+}
+
+.blog dl {
+  @apply mt-4 mb-4;
+}
+
+.blog dt {
+  @apply font-bold dark:text-whitecolor mt-4;
+}
+
+.blog dd {
+  @apply ml-4 mt-2 dark:text-whitecolor;
+}
+
+.blog em {
+  @apply italic;
+}
+
+.blog strong {
+  @apply font-bold;
+}
+
+@media (max-width: 640px) {
+  .blog h1 {
+    @apply text-3xl;
+  }
+  
+  .blog h2 {
+    @apply text-2xl;
+  }
+  
+  .blog h3 {
+    @apply text-xl;
+  }
+  
+  .blog h4 {
+    @apply text-lg;
+  }
+  
+  .blog pre {
+    @apply mx-[-1rem];
+    @apply rounded-none;
+  }
+}
