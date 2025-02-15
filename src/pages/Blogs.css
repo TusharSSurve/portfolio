@@ -48,11 +48,15 @@
 }
 
 .blog pre {
-  @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg my-4 overflow-x-auto;
+  @apply bg-gray-100 dark:bg-black p-4 rounded-lg my-4 overflow-x-auto;
 }
 
 .blog code {
-  @apply bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono;
+  @apply px-1.5 py-0.5 rounded text-sm font-mono text-white;
+}
+
+.blog pre code {
+  @apply px-0;
 }
 
 .blog img {
@@ -83,9 +87,9 @@
   @apply bg-yellow-50 dark:bg-yellow-900/30 border-l-4 border-yellow-500 p-4 my-4;
 }
 
-.blog ul ul, 
-.blog ol ol, 
-.blog ul ol, 
+.blog ul ul,
+.blog ol ol,
+.blog ul ol,
 .blog ol ul {
   @apply mt-2 mb-2 ml-6;
 }
@@ -114,19 +118,19 @@
   .blog h1 {
     @apply text-3xl;
   }
-  
+
   .blog h2 {
     @apply text-2xl;
   }
-  
+
   .blog h3 {
     @apply text-xl;
   }
-  
+
   .blog h4 {
     @apply text-lg;
   }
-  
+
   .blog pre {
     @apply mx-[-1rem];
     @apply rounded-none;
