@@ -7,7 +7,7 @@ import Error from "./pages/Error";
 import Blogs from "./pages/Blogs";
 import BlogPage from "./pages/BlogPage";
 
-function App() {
+export default function App() {
   return (
     <Router>
       <ScrollToTop />
@@ -23,5 +23,3 @@ function App() {
     </Router>
   )
 }
-
-export default App
