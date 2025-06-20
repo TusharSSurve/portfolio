@@ -5,7 +5,7 @@
     "job_link": "https://www.infosys.com/",
     "job_title": "Senior FullStack Engineer",
     "range": "Oct 2024 – Present",
-    "role": "Build, style, and ship high-quality websites, and digital experiences for a diverse array of projects across US and Canada markets for Pfizer. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
+    "role": "Build and maintain customer service applications for Thales Group. Streamline workflows by automating PO data extraction with Azure OpenAI. Enhance system performance with a robust archive for historical order data. Improve user experience through real-time dashboards powered by SSE.",
     "tech": [
       {
         "id": 4,
@@ -13,19 +13,23 @@
       },
       {
         "id": 3,
-        "skill": "TypeScript"
+        "skill": "Java"
       },
       {
         "id": 2,
-        "skill": "JavaScript"
+        "skill": "Spring Boot"
       },
       {
         "id": 1,
-        "skill": "HTML & SCSS"
+        "skill": "Hibernate"
       },
       {
         "id": 0,
-        "skill": "Jest"
+        "skill": "TypeScript"
+      },
+      {
+        "id": 5,
+        "skill": "Azure OpenAI"
       }
     ]
   },

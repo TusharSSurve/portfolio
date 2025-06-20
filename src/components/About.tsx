@@ -48,7 +48,7 @@ export default function About() {
     <section className="animate-slide-from-down-and-fade-2 space-y-2 px-4">
       <H2>About me</H2>
       <div className="">
-        <P>Hey! I'm Tushar Surve, a Frontend Developer at <a href="https://www.tcs.com" className="anchor">TCS</a>. My coding journey began in 2015, fueled by my passion for <mark>Mathematics.</mark> Discovering how programming simplifies complex problems captivated me, leading me to pursue a career in this field. Today, I excel in <mark>Frontend Development</mark> and am currently working on exciting Web Development projects.
+        <P>Hey! I'm Tushar Surve, a Senior FullStack Developer at <a href="https://www.infosys.com/" className="anchor">Infosys</a>. My coding journey began in 2015, fueled by my passion for <mark>Mathematics.</mark> Discovering how programming simplifies complex problems captivated me, leading me to pursue a career in this field. Today, I excel in <mark>FullStack Development</mark> and am currently working on exciting Web based Fullstack Development projects.
         </P>
         <P className="my-3">When I'm not coding, you can find me lost in the pages of a good book, honing my strategic skills on the <a href="https://www.chess.com/member/skull2049" className="anchor">chessboard</a>, exploring new trekking trails, or checking off another item on my bucket list.</P>
         <P>Here are a few technologies I’ve been working with recently:</P>
