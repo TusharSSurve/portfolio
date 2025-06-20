@@ -7,12 +7,20 @@ const technologies = [
     tech: "React.JS",
   },
   {
+    id: 9,
+    tech: "Java",
+  },
+  {
     id: 2,
     tech: "JavaScript/TypeScript",
   },
   {
     id: 3,
     tech: "Next.JS",
+  },
+  {
+    id: 10,
+    tech: "Spring Boot",
   },
   {
     id: 4,
@@ -32,7 +40,7 @@ const technologies = [
   },
   {
     id: 8,
-    tech: "Tableau",
+    tech: "Hibernate",
   }
 ];
 export default function About() {
@@ -44,7 +52,7 @@ export default function About() {
         </P>
         <P className="my-3">When I'm not coding, you can find me lost in the pages of a good book, honing my strategic skills on the <a href="https://www.chess.com/member/skull2049" className="anchor">chessboard</a>, exploring new trekking trails, or checking off another item on my bucket list.</P>
         <P>Here are a few technologies I’ve been working with recently:</P>
-        <ul className="grid grid-cols-2 gap-y-2 mt-5">
+        <ul className="grid grid-cols-2 md:grid-cols-3 gap-y-2 mt-5">
           {
             technologies.map(t => {
               return <li key={t.id} className="text-sm text-greycolor dark:text-darkwhitecolor relative mb-[10px] pl-5 before:content-['▹'] before:dark:text-neoncolor before:absolute before:left-0">{t.tech}</li>

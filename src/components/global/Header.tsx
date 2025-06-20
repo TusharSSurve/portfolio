@@ -16,7 +16,7 @@ export default function Header() {
           </Avatar>
           <div>
             <h1 className="font-semibold text-warmblack dark:text-whitecolor text-lg">Tushar Surve</h1>
-            <p className="mt-0.5 text-sm text-greycolor dark:text-darkwhitecolor">Frontend Developer</p>
+            <p className="mt-0.5 text-sm text-greycolor dark:text-darkwhitecolor">Senior FullStack Developer</p>
           </div>
         </div>
         <a href={resume} aria-label="Resume Download" className="rounded-md border size-8 border-darkwhitecolor/20 flex transition-all items-center justify-center hover:bg-darkgreycolor">

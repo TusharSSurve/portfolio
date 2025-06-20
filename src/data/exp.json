@@ -1,10 +1,40 @@
 [
   {
+    "id": 4,
+    "job": "Infosys",
+    "job_link": "https://www.infosys.com/",
+    "job_title": "Senior FullStack Engineer",
+    "range": "Oct 2024 – Present",
+    "role": "Build, style, and ship high-quality websites, and digital experiences for a diverse array of projects across US and Canada markets for Pfizer. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
+    "tech": [
+      {
+        "id": 4,
+        "skill": "React.JS"
+      },
+      {
+        "id": 3,
+        "skill": "TypeScript"
+      },
+      {
+        "id": 2,
+        "skill": "JavaScript"
+      },
+      {
+        "id": 1,
+        "skill": "HTML & SCSS"
+      },
+      {
+        "id": 0,
+        "skill": "Jest"
+      }
+    ]
+  },
+  {
     "id": 1,
     "job": "Tata Consultancy Services",
     "job_link": "https://www.tcs.com",
-    "job_title": "Frontend Developer",
-    "range": "2021 – Present",
+    "job_title": "Frontend Software Engineer",
+    "range": "Aug 2021 – Oct 2024",
     "role": "Build, style, and ship high-quality websites, and digital experiences for a diverse array of projects across US and Canada markets for Pfizer. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
     "tech": [
       {
