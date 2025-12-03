@@ -5,6 +5,33 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 const projects = [
   {
+    "id": 10,
+    "year": "2025",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/FocusGuard",
+        "icon": "github"
+      }
+    ],
+    "title": "FocusGuard - Chrome Extension",
+    "para": "Website blocker to seamlessly optimize your focus.",
+    "langs": [
+      {
+        "id": 2,
+        "lang": "React.JS"
+      },
+      {
+        "id": 3,
+        "lang": "TypeScript"
+      },
+      {
+        "id": 4,
+        "lang": "Tailwind CSS"
+      }
+    ]
+  },
+  {
     "id": 4,
     "year": "2024",
     "wlinks": [
@@ -55,29 +82,6 @@ const projects = [
       {
         "id": 3,
         "lang": "ML/DL"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "year": "2023",
-    "wlinks": [
-      {
-        "id": 1,
-        "link": "https://github.com/TusharSSurve/GPT-Detector",
-        "icon": "github"
-      }
-    ],
-    "title": "GPT Detector",
-    "para": "Detect AI-Generated Plagiarism",
-    "langs": [
-      {
-        "id": 1,
-        "lang": "React.JS"
-      },
-      {
-        "id": 2,
-        "lang": "OpenAI"
       }
     ]
   },
