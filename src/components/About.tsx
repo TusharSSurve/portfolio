@@ -40,7 +40,7 @@ const technologies = [
   },
   {
     id: 8,
-    tech: "Hibernate",
+    tech: "JPA/Hibernate",
   }
 ];
 export default function About() {

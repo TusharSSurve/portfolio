@@ -1,4 +1,4 @@
-import { faGithub, faKaggle, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 export const SOCIAL_LINKS = [
@@ -16,12 +16,6 @@ export const SOCIAL_LINKS = [
   },
   {
     id: 3,
-    link: "https://www.kaggle.com/tusharsurve",
-    name: "Kaggle",
-    icon: faKaggle
-  },
-  {
-    id: 4,
     link: "mailto:ttusharsurve567@gmail.com",
     name: "Mail",
     icon: faPaperPlane
