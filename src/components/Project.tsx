@@ -27,7 +27,7 @@ const projects = [
       },
       {
         "id": 3,
-        "lang": "Hibernate/JPL"
+        "lang": "Hibernate/JPA"
       }
     ]
   },
