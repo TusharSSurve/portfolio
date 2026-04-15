@@ -5,6 +5,33 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 const projects = [
   {
+    "id": 5,
+    "year": "2026",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/ViSQL",
+        "icon": "github"
+      }
+    ],
+    "title": "ViSQL (Visual SQL Query Editor)",
+    "para": "Build and run SQL queries visually, no SQL knowledge needed.",
+    "langs": [
+      {
+        "id": 1,
+        "lang": "React.JS"
+      },
+      {
+        "id": 2,
+        "lang": "Spring Boot"
+      },
+      {
+        "id": 3,
+        "lang": "Hibernate/JPL"
+      }
+    ]
+  },
+  {
     "id": 10,
     "year": "2025",
     "wlinks": [
@@ -82,33 +109,6 @@ const projects = [
       {
         "id": 3,
         "lang": "ML/DL"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "year": "2021",
-    "wlinks": [
-      {
-        "id": 1,
-        "link": "https://github.com/TusharSSurve/Media-Player-Controller-With-Hand-Gesture",
-        "icon": "github"
-      }
-    ],
-    "title": "Media Player Controller",
-    "para": "Hand gesture-based media player navigation system.",
-    "langs": [
-      {
-        "id": 1,
-        "lang": "Python"
-      },
-      {
-        "id": 2,
-        "lang": "OpenCV"
-      },
-      {
-        "id": 3,
-        "lang": "MediaPipe"
       }
     ]
   }

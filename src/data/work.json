@@ -1,6 +1,41 @@
 [
   {
     "id": 13,
+    "year": "2026",
+    "wlinks": [
+      {
+        "id": 1,
+        "link": "https://github.com/TusharSSurve/ViSQL",
+        "icon": "github"
+      }
+    ],
+    "title": "ViSQL (Visual SQL Query Editor)",
+    "para": "Build and run SQL queries visually, no SQL knowledge needed.",
+    "langs": [
+      {
+        "id": 2,
+        "lang": "React.JS"
+      },
+      {
+        "id": 3,
+        "lang": "Spring Boot"
+      },
+      {
+        "id": 4,
+        "lang": "Hibernate/JPL"
+      },
+      {
+        "id": 5,
+        "lang": "TypeScript"
+      },
+      {
+        "id": 6,
+        "lang": "Java"
+      }
+    ]
+  },
+  {
+    "id": 13,
     "year": "2025",
     "wlinks": [
       {
