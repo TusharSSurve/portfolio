@@ -1,10 +1,32 @@
 [
   {
+    "id": 5,
+    "job": "Bosch Global Software Technologies",
+    "job_link": "https://www.bosch-softwaretechnologies.com/",
+    "job_title": "Senior Software Engineer",
+    "range": "June 2026 – Present",
+    "role": "Design, build, and maintain scalable full-stack applications. Collaborate with cross-functional teams to deliver reliable, high-quality software and drive engineering best practices.",
+    "tech": [
+      {
+        "id": 3,
+        "skill": "Python"
+      },
+      {
+        "id": 5,
+        "skill": "FastAPI"
+      },
+      {
+        "id": 6,
+        "skill": "Next.js"
+      }
+    ]
+  },
+  {
     "id": 4,
     "job": "Infosys",
     "job_link": "https://www.infosys.com/",
     "job_title": "Senior FullStack Engineer",
-    "range": "Oct 2024 – Present",
+    "range": "Oct 2024 – June 2026",
     "role": "Build and maintain customer service applications for Thales Group. Streamline workflows by automating PO data extraction with Azure OpenAI. Enhance system performance with a robust archive for historical order data. Improve user experience through real-time dashboards powered by SSE.",
     "tech": [
       {
