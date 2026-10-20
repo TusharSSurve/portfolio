@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="mt-12 px-4 pb-20">
       <H2>Get in touch</H2>
-      <P>Feel free to shoot me an email whether you have a question, just want to chat, I'll do my best to get back to you!</P>
+      <P>Whether you have a question or just want to chat, feel free to shoot me an email. I'll do my best to get back to you!</P>
       <ul className="flex justify-center gap-4 mt-6">
         {
           SOCIAL_LINKS.map(slink => {

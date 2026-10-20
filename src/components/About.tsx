@@ -7,16 +7,20 @@ const technologies = [
     tech: "React.JS",
   },
   {
-    id: 9,
-    tech: "Java",
-  },
-  {
-    id: 2,
-    tech: "JavaScript/TypeScript",
-  },
-  {
     id: 3,
     tech: "Next.JS",
+  },
+  {
+    id: 5,
+    tech: "Python",
+  },
+  {
+    id: 8,
+    tech: "FastAPI",
+  },
+  {
+    id: 9,
+    tech: "Java",
   },
   {
     id: 10,
@@ -27,20 +31,12 @@ const technologies = [
     tech: "Tailwind CSS",
   },
   {
-    id: 5,
-    tech: "Python",
-  },
-  {
     id: 6,
     tech: "OpenCV",
   },
   {
     id: 7,
     tech: "SQL",
-  },
-  {
-    id: 8,
-    tech: "JPA/Hibernate",
   }
 ];
 export default function About() {
@@ -48,7 +44,7 @@ export default function About() {
     <section className="animate-slide-from-down-and-fade-2 space-y-2 px-4">
       <H2>About me</H2>
       <div className="">
-        <P>Hey! I'm Tushar Surve, a Senior FullStack Developer at <a href="https://www.infosys.com/" className="anchor">Infosys</a>. My coding journey began in 2015, fueled by my passion for <mark>Mathematics.</mark> Discovering how programming simplifies complex problems captivated me, leading me to pursue a career in this field. Today, I excel in <mark>FullStack Development</mark> and am currently working on exciting Web based Fullstack Development projects.
+        <P>Hey! I'm Tushar Surve, a Senior Software Engineer at <a href="https://www.bosch-softwaretechnologies.com/" className="anchor">BGSW</a>. My coding journey began in 2015, fueled by my passion for <mark>Mathematics.</mark> Discovering how programming simplifies complex problems captivated me, leading me to pursue a career in this field. Today, I excel in <mark>FullStack Development</mark> and am currently working on exciting Web based Fullstack Development projects.
         </P>
         <P className="my-3">When I'm not coding, you can find me lost in the pages of a good book, honing my strategic skills on the <a href="https://www.chess.com/member/skull2049" className="anchor">chessboard</a>, exploring new trekking trails, or checking off another item on my bucket list.</P>
         <P>Here are a few technologies I’ve been working with recently:</P>
