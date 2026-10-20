@@ -5,9 +5,10 @@ import Projects from "./pages/Projects";
 import ScrollToTop from "./components/global/ScrollToTop";
 import Error from "./pages/Error";
 
-export default function App() {
+// Shared by the browser (BrowserRouter) and the pre-render step (StaticRouter in entry-server.tsx).
+export function AppRoutes() {
   return (
-    <Router>
+    <>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -16,6 +17,14 @@ export default function App() {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
+    </>
+  )
+}
+
+export default function App() {
+  return (
+    <Router>
+      <AppRoutes />
     </Router>
   )
 }

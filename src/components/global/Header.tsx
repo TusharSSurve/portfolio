@@ -4,8 +4,11 @@ import Profile from '../../assets/profile.jpg';
 import resume from '../../assets/resume.pdf'
 import { Avatar, AvatarFallback, AvatarImage } from "@radix-ui/react-avatar"
 import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from "@/lib/hooks";
 
 export default function Header() {
+  const [isDark, toggleTheme] = useTheme();
   return (
     <header className="flex w-full animate-slide-from-down-and-fade-1 flex-col gap-6 px-4">
       <div className="flex justify-between items-center">
@@ -19,9 +22,14 @@ export default function Header() {
             <p className="mt-0.5 text-sm text-greycolor dark:text-darkwhitecolor">Senior Software Engineer</p>
           </div>
         </div>
-        <a href={resume} aria-label="Resume Download" className="rounded-md border size-8 border-darkwhitecolor/20 flex transition-all items-center justify-center hover:bg-darkgreycolor">
-          <FontAwesomeIcon icon={faDownload} className='w-4 h-4 text-darkgreycolor/75 dark:text-darkwhitecolor' />
-        </a>
+        <div className="flex gap-2">
+          <button onClick={toggleTheme} aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"} className="rounded-md border size-8 border-darkwhitecolor/20 flex transition-all items-center justify-center hover:bg-greycolor/25 dark:hover:bg-darkgreycolor">
+            <FontAwesomeIcon icon={isDark ? faSun : faMoon} className='w-4 h-4 text-darkgreycolor/75 dark:text-darkwhitecolor' />
+          </button>
+          <a href={resume} aria-label="Resume Download" className="rounded-md border size-8 border-darkwhitecolor/20 flex transition-all items-center justify-center hover:bg-darkgreycolor">
+            <FontAwesomeIcon icon={faDownload} className='w-4 h-4 text-darkgreycolor/75 dark:text-darkwhitecolor' />
+          </a>
+        </div>
       </div>
       <div className="mb-12">
         <ul className="flex gap-4">

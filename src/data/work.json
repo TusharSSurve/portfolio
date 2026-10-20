@@ -9,6 +9,7 @@
         "icon": "github"
       }
     ],
+    "featured": true,
     "title": "ViSQL (Visual SQL Query Editor)",
     "para": "Build and run SQL queries visually, no SQL knowledge needed.",
     "langs": [
@@ -44,6 +45,7 @@
         "icon": "github"
       }
     ],
+    "featured": true,
     "title": "FocusGuard - Chrome Extension",
     "para": "Website blocker to seamlessly optimize your focus.",
     "langs": [
@@ -114,6 +116,7 @@
         "icon": "github"
       }
     ],
+    "featured": true,
     "title": "PaperPupil",
     "para": "Effortlessly interact with PDFs for study, research, and insights.",
     "langs": [
@@ -180,6 +183,7 @@
         "icon": "github"
       }
     ],
+    "featured": true,
     "title": "OpenCV",
     "para": "Exploring creative computer vision project ideas.",
     "langs": [
