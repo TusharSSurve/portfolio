@@ -1,33 +1,50 @@
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 
 type UseMetaProps = {
   title: string;
   description?: string
 }
-export function useDarkmode() {
-  const [isDark, setIsDark] = useState(false);
-  useEffect(() => {
-    const checkDarkMode = () => {
-      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (isDark) {
-        document.documentElement.classList.add('dark');
-        document.documentElement.classList.remove('light');
-        setIsDark(true);
-      } else {
-        document.documentElement.classList.remove('dark');
-        document.documentElement.classList.add('light');
-        setIsDark(false);
-      }
-    };
 
-    checkDarkMode();
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', checkDarkMode);
+// The initial class on <html> is set by the inline script in index.html.
+function applyTheme(dark: boolean) {
+  document.documentElement.classList.toggle('dark', dark);
+  document.documentElement.classList.toggle('light', !dark);
+}
 
-    return () => {
-      window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', checkDarkMode);
-    };
-  }, []);
-  return isDark;
+function savedTheme() {
+  try {
+    return localStorage.getItem('theme');
+  } catch {
+    return null;
+  }
+}
+
+function subscribeTheme(onChange: () => void) {
+  const observer = new MutationObserver(onChange);
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+  // Follow the OS setting until the user picks a theme.
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  const onSystemChange = () => { if (!savedTheme()) applyTheme(mq.matches) };
+  mq.addEventListener('change', onSystemChange);
+  return () => {
+    observer.disconnect();
+    mq.removeEventListener('change', onSystemChange);
+  };
+}
+
+export function useTheme() {
+  const isDark = useSyncExternalStore(
+    subscribeTheme,
+    () => document.documentElement.classList.contains('dark'),
+    () => false
+  );
+  const toggle = () => {
+    applyTheme(!isDark);
+    try {
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    } catch { /* private mode: theme just won't persist */ }
+  };
+  return [isDark, toggle] as const;
 }
 
 export function useMeta({ title, description }: UseMetaProps) {

@@ -1,10 +1,21 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, hydrateRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
-createRoot(document.getElementById('root')!).render(
+const root = document.getElementById('root')!
+const app = (
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 )
+
+// scripts/prerender.js marks pre-rendered HTML with data-route. Hydrate only when it
+// matches this URL exactly: unknown paths (served the home HTML by the vercel.json
+// fallback) and query params like ?tech=Python render fresh instead.
+const path = location.pathname.replace(/\/$/, '') || '/'
+if (root.dataset.route === path && !location.search) {
+  hydrateRoot(root, app)
+} else {
+  createRoot(root).render(app)
+}

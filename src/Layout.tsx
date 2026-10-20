@@ -2,13 +2,13 @@ import { Outlet, useLocation } from "react-router-dom";
 import Footer from "./components/global/Footer";
 import Header from "./components/global/Header";
 import Particles from "./components/magicui/particles";
-import { useDarkmode } from "./lib/hooks";
+import { useTheme } from "./lib/hooks";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function Layout() {
-  const isDark = useDarkmode();
-  const location = useLocation().pathname
+  const [isDark] = useTheme();
+  const location = useLocation().pathname.replace(/\/$/, '') || '/'
 
 
   return (

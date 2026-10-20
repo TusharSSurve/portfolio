@@ -11,6 +11,7 @@ type ProjectCardDetail = {
     link: string;
     icon: string;
   }[];
+  featured?: boolean;
   title: string;
   para: string;
   langs: {
