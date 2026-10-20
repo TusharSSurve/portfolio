@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot, hydrateRoot } from 'react-dom/client'
 import App from './App.tsx'
-// @ts-expect-error CSS is handled by the bundler, not TypeScript.
 import './index.css'
 
 const root = document.getElementById('root')!
